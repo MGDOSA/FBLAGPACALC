@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Enables responsive design for various devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ardrey Kell GPA Calculator</title>
+    <style>
+        /* Styles for the entire page */
+        body {
+            font-family: Arial, sans-serif; /* Sets font family */
+            background-color: #8a2be2; /* Purple background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Takes up full height of the viewport */
+        }
+
+        /* Styles for the login form */
+        form {
+            background-color: #fff; /* White background */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds shadow effect */
+            width: 300px;
+            text-align: center;
+        }
+
+        /* Styles for input fields */
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box; /* Ensures padding and border are included in the total width */
+        }
+
+        /* Styles for buttons */
+        button {
+            width: 100%;
+            padding: 10px;
+            color: #fff; /* White text color */
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form id="loginForm">
+        <h2>Login</h2>
+        <!-- Username input field -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <!-- Password input field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <!-- Button to submit the form -->
+        <a href="./calc.html"> Enter</a> 
+    </form>
+</body>
+</html>
